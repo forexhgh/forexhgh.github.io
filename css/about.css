@@ -1,0 +1,86 @@
+body{
+	background: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url("../images/image1.jpg");
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.wrapper{
+	width: 1170px;
+	margin: auto;
+}
+.nav-area{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.nav-area li{
+	display: inline-block;
+}
+.nav-area li a{
+	border: 1px solid #fff;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+}
+.nav-area li a:hover{
+	background: #fff;
+	color: #333;
+}
+.nav-area li.active a{
+	background-color: darkorange;
+}
+.logo img{
+	width: 100px;
+	float: left;
+	height: auto;
+}
+.welcome-text{
+	position: top;
+	width: 500px;
+	height: 10px;
+	margin: 0% 20%;
+	text-align: left;
+}
+.welcome-text h1{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+.welcome-text a{
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover{
+	background: #fff;
+	color: #333;
+}
+.about{
+	position: center;
+	width: 500px;
+	height: 10px;
+	margin: 10% 0%;
+	text-align: left;
+}
+.about h1{
+	text-align: center;
+	color: #00CED1;
+	text-transform: none;
+	font-size: 20px;
+}
+.about p{
+	text-align: left;
+	color: #fff;
+	text-transform: none;
+	font-size: 20px;
+}
